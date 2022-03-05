@@ -1,7 +1,10 @@
-# FastAPI Mongo
-A fastAPI mongoDB integration cookiecutter template
+# FastAPI Mongo ⚡
+A fastAPI mongoDB integrated cookiecutter 🍪 template
 
 ---
 
-## CHANGELOG
+## 💻 Support
+Create a issue or join the community on [Discord](https://discord.gg/gQ9rcuNK75)
+
+## 📒 CHANGELOG
 [See here](CHANGELOG.md)
