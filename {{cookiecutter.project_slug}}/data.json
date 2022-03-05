@@ -1,0 +1,4 @@
+{
+    "BASE_URL": "{{cookiecutter.base_url}}",
+    "MONGO" : "{{cookiecutter.mongo_url}}"
+}

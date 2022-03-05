@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+motor
+dnspython
+nest_asyncio
+jinja2
+slowapi
+requests
+orjson

@@ -1,0 +1,1 @@
+uvicorn main:app --reload --host 127.0.0.1 --port {{cookiecutter.port}} --workers {{cookiecutter.workers}}
