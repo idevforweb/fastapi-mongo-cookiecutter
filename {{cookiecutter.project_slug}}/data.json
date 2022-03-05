@@ -1,4 +1,4 @@
 {
-    "BASE_URL": "{{cookiecutter.base_url}}",
+    "BASE_URL": "{{cookiecutter.base}}:{{cookiecutter.port}}",
     "MONGO" : "{{cookiecutter.mongo_url}}"
 }
