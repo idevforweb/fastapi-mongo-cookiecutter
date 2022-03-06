@@ -55,7 +55,7 @@ async def home(request : Request):
 if __name__ == '__main__':
 	uvicorn.run(
         "main:app",
-        host={{cookiecutter.base}},
+        host='{{cookiecutter.base}}',
         port={{cookiecutter.port}},
         reload=True,
         debug=True, 
