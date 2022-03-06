@@ -7,7 +7,7 @@ A fastAPI mongoDB integrated cookiecutter 🍪 template
 
 
 <p align="left">
-  <img src="https://github.com/minihut/fastapi-mongo/raw/main/img/pip_and_cookie.png" alt="PIP AND COOKIE">
+  <img src="https://github.com/minihut/fastapi-mongo/raw/main/img/bash.png" alt="PIP AND COOKIE">
 </p>
 
 - `project_name`: The name of the project.

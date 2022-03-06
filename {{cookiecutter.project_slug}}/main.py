@@ -38,10 +38,18 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 app.add_middleware(SlowAPIMiddleware)
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
+app.mount("/static", StaticFiles(directory=f"{dir_path}/static"), name="static")
+templates = Jinja2Templates(directory=f"{dir_path}/template")
 
+# Json Response
 @app.get("/")
-async def root():
+async def root(request: Request):
     return {"message": "Hello World"}
+
+@app.get("/html", response_class=HTMLResponse, include_in_schema=False)
+@limiter.limit("100/second")
+async def home(request : Request):
+    return templates.TemplateResponse("index.html", {"request": request})
 
 # Run API
 if __name__ == '__main__':
@@ -53,3 +61,5 @@ if __name__ == '__main__':
         debug=True, 
         workers={{cookiecutter.workers}}
         )
+
+# Issue - Dunno why but gives error on uvicorn.run(...) . You can try start.sh meanwhile.

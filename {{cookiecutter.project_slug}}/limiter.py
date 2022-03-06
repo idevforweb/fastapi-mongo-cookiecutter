@@ -9,4 +9,4 @@ def limiter():
         key_func=get_remote_address,
         default_limits=["{{cookiecutter.global_rate_limit_per_second}}/second"]
     )
-    return 
+    return limiter
