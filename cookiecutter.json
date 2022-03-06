@@ -5,7 +5,7 @@
     "project_short_description":
         "A fastapi-based API for MongoDB",
     "workers" : 2,
-    "base" : "http://127.0.0.1",
+    "base" : "127.0.0.1",
     "port" : 8080,
     "base_url" : "{{cookiecutter.base}}:{{cookiecutter.port}}",
     "mongo_url" : "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000",
