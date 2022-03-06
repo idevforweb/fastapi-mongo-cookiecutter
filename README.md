@@ -5,21 +5,10 @@ A fastAPI mongoDB integrated cookiecutter 🍪 template
 
 ## ➡️ Installation
 
-    $ pip install cookiecutter
-        ...
-##
-    $ cookiecutter gh:minihut/fastapi-mongo
-        project_name [fastapi-mongo]:
-        project_slug [fastapi]: 
-        project_version [0.1.0]:
-        project_short_description [A fastapi-based API for MongoDB]: 
-        workers [2]: 
-        base [http://127.0.0.1]: 
-        port [8080]:
-        mongo_url [mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000]: 
-        docs_endpoint [/docs]: 
-        playground_endpoint [/play]: 
-        global_rate_limit_per_second [5]:
+
+<p align="left">
+  <img src="https://github.com/minihut/fastapi-mongo/raw/main/img/pip_and_cookie.png" alt="PIP AND COOKIE">
+</p>
 
 - `project_name`: The name of the project.
 - `project_slug`: Basically folder name
